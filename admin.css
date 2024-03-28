@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url('Background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  height: 100%;
+  font-family: "Sen", sans-serif;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo-container .logo a{
+  font-size: 30px;
+  color: #56d9ec;
+  text-decoration: none;
+}
+
+.admin-panel {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tablink {
+    width: 500px;
+    background-color: #56d9ec;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+  .tablink.active {
+    background-color: #337d89;
+  }
+  
+  .tabcontent {
+    display: none;
+    color: white;
+  }
+  
+  .dashboard-info {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .dashboard-box {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 120px;
+  }
+ 
+  .dashboard-box p {
+    margin-top: 5px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #56d9ec;
+    width: 800px;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #337d89;
+  }
+  
+  .image {
+    font-size: 20px;
+  }
