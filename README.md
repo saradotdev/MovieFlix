@@ -8,7 +8,7 @@
 
 ## ✨ Features
 
-- 🔐 **Register and Login**
+- 🔐 **Register and Login**  
   Register yourself as an admin or customer, or login with an existing account.
 
 - 🔍 **Browse and Search Movies**  
