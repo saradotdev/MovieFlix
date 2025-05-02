@@ -1,6 +1,6 @@
 # 🎬 MovieFlix – Movie Web App
 
-🔗 **Live Site:** [http://movieflix.infinityfreeapp.com](http://movieflix.infinityfreeapp.com/home.php)
+🌐 **Live Site:** [http://movieflix.infinityfreeapp.com](http://movieflix.infinityfreeapp.com/home.php)
 
 **MovieFlix** is a full-featured web application built with **HTML, CSS, JavaScript, PHP and MySQL**. It provides functionality for browsing, searching, and managing movies.
 
@@ -43,15 +43,14 @@
 
 ### 🛠️ Steps
 
-1. **Clone the repository:**
+1. **Go to your web server directory:**
 ```bash
-git clone https://github.com/saradotdev/MovieFlix.git
+cd C:\xampp\htdocs\
 ```
 
-2. **Move to your web server directory:**
+2. **Clone the repository:**
 ```bash
-# Example for XAMPP
-mv MovieFlix /xampp/htdocs/
+git clone https://github.com/saradotdev/MovieFlix.git
 ```
 
 3. **Set up the database:**
